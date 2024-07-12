@@ -65,8 +65,8 @@ const Profile = () => (
           </div>
         </div>
         <p>
-          In mollit dolore voluptate laborum excepteur. Lorem ipsum dolor sit
-          amet.
+          Against all odds, I rebuilt my life post-incarceration, becoming a
+          thriving business owner and community leader.
         </p>
         <div className="flex items-center mt-2 text-gray-500 text-sm">
           <FaThumbsUp className="mr-1" />

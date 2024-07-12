@@ -99,19 +99,19 @@ const App = () => (
     />
     <Button className="w-1/2 my-5 bg-[#004AAD]">Submit A Quote</Button>
     <PostCard
-      author="Michaela"
+      author="Maria"
       date="Mar 25, 2024"
-      content="In mollit dolore voluptate laborum excepteur. Lorem ipsum dolor sit amet."
-      image="https://img.freepik.com/free-vector/beige-leafy-watercolor-background-vector_53876-136491.jpg"
+      content="After incarceration, I rebuilt my life, earning a degree and becoming an advocate for criminal justice reform, inspiring many with my story of redemption."
+      image="https://st5.depositphotos.com/62628780/64415/i/450/depositphotos_644153394-stock-photo-friends-selfie-low-angle-portrait.jpg"
       likes={20}
       comments={3}
       shares={1}
     />
 
     <PostCard
-      author="Michaela"
+      author="John"
       date="Mar 25, 2024"
-      content="In mollit dolore voluptate laborum excepteur. Lorem ipsum dolor sit amet."
+      content="My resilience and determination transformed my life after incarceration, leading me to become a successful business owner and community leader."
       image="https://img.freepik.com/free-vector/beige-leafy-watercolor-background-vector_53876-136491.jpg"
       likes={20}
       comments={3}

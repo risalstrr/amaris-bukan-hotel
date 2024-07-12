@@ -90,14 +90,14 @@ const Chat = () => {
       <div className="flex-1 overflow-y-auto">
         <ChatMessage
           name="Sylas"
-          message="Mollit excepteur eiusmod consequat."
+          message="Hey, have you watched the latest season of..."
           time="Just now"
           profileImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOH2aZnIHWjMQj2lQUOWIL2f4Hljgab0ecZQ&s"
           isSender={true}
         />
         <ChatMessage
           name="Sylas"
-          message="Exercitation ea id."
+          message="Stranger Things?"
           time="Just now"
           profileImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOH2aZnIHWjMQj2lQUOWIL2f4Hljgab0ecZQ&s"
           isSender={true}
