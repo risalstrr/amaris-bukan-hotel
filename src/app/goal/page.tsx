@@ -1,12 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { currentUser } from "@clerk/nextjs";
-
 // eslint-disable-next-line @next/next/no-async-client-component
 export default async function Home() {
-  const user = await currentUser();
-
   return (
     <div className="flex flex-col justify-center w-full min-h-screen">
       <div
