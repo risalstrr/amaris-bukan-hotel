@@ -4,7 +4,7 @@ import Image from "next/image";
 // eslint-disable-next-line @next/next/no-async-client-component
 export default async function Home() {
   return (
-    <div className="flex flex-col justify-center w-full min-h-screen">
+    <div className="flex flex-col justify-center w-full min-h-screen max-w-md">
       <div
         className={`absolute bottom-[10%] flex flex-col w-full justify-center items-center p-4 gap-5 transition-all duration-[2000ms] ease-in-out`}
       >
@@ -28,7 +28,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="w-full">
+        <div className="w-full lg:w-3/12">
           <p className="font-bold text-md text-black text-start">
             I want to...
           </p>
