@@ -40,15 +40,14 @@ export default async function Home() {
             required
           />
         </div>
-
-        <div className="flex flex-col w-full justify-center items-center gap-10">
-          <Link
-            href={"/wishes"}
-            className="lg:w-full w-4/5 max-w-[350px]  px-6 py-3 font-bold text-[18px] text-white text-center rounded-3xl bg-[#004AAD] hover:scale-105 active:scale-95 transition-all"
-          >
+        <Link
+          href={"/wishes"}
+          className="lg:w-full w-4/5 max-w-[350px]  px-6 py-3 font-bold text-[18px] text-white text-center rounded-3xl bg-[#004AAD] hover:scale-105 active:scale-95 transition-all"
+        >
+          <div className="flex flex-col w-full justify-center items-center gap-10">
             Next
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
