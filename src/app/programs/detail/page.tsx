@@ -18,7 +18,7 @@ const BatchDetails = () => {
         <img
           src="https://i0.wp.com/www.star-revue.com/wp-content/uploads/2019/04/Urban-Recoverys-team.-Photo-courtesy-of-Urban-Recovery.jpg?ssl=1"
           alt="Sunset in the mountains"
-          className="w-full h-full fill bg-cover"
+          className="w-full lg:w-1/3 h-full fill bg-cover"
         />
         <div className="p-4">
           <h2 className="text-2xl font-bold">Renewed Life</h2>
