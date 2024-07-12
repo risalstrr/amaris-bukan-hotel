@@ -1,14 +1,3 @@
-// import Header from "@/components/header";
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <Header />
-//       <h1 className="font-bold text-center mt-10">Home page</h1>
-//     </div>
-//   );
-// }
-
 "use client";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,31 +11,34 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative flex flex-col justify-center items-center w-full min-h-screen bg-primaryYellow">
+    <div className="relative flex flex-col justify-center items-center w-full min-h-screen">
       <div
         className={`absolute bottom-[10%] flex flex-col w-full justify-center items-center ${
-          load ? "gap-40" : "gap-10"
+          load ? "gap-40" : "gap-5"
         } transition-all duration-[2000ms] ease-in-out`}
       >
         <Image
-          src={"/logo.png"}
+          src={"/onboarding.png"}
           alt={""}
           width={0}
           height={0}
           sizes="100vw"
           loading="lazy"
-          className={`w-[200px] aspect-square transition-all duration-[1000ms] ease-in-out ${
+          className={`w-[250px] h-[150px] aspect-square transition-all duration-[1000ms] ease-in-out ${
             load ? "opacity-0" : "opacity-100"
           }`}
         />
-        <div className="flex flex-col justify-center items-center text-fuchsia-500 font-medium text-[24px]">
-          <div>We are here to help you </div>
-          <div>be a better person</div>
+
+        <p className="font-bold text-3xl mt-4 tracking-wider">Welcome!</p>
+        <div className="flex flex-col justify-center mb-5 items-center text-gray-600 font-medium text-[17px]">
+          <div>Navigate your new chapter</div>
+          <div>with confidence and direction</div>
         </div>
+
         <div className="flex flex-col w-full justify-center items-center gap-10">
           <Link
             href={"/sign-in"}
-            className="w-full max-w-[350px] px-6 py-3 font-bold text-[18px] text-white text-center rounded-3xl bg-blue-700 hover:scale-105 active:scale-95 transition-all"
+            className="lg:w-full w-4/5 max-w-[350px] px-6 py-3 font-bold text-[18px] text-white text-center rounded-3xl bg-[#004AAD] hover:scale-105 active:scale-95 transition-all"
           >
             LOG IN
           </Link>
