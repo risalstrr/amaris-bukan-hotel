@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Header from "@/components/header";
-import { auth, currentUser, UserButton } from "@clerk/nextjs";
+import { auth, currentUser, UserButton, SignOutButton } from "@clerk/nextjs";
 import Link from "next/link";
 import {
   FaCalendarAlt,
@@ -23,6 +23,12 @@ export default async function HomePage() {
     <>
       <Header />
       <div className="max-w-md mx-auto p-6">
+        <Link href={"/sign-in"}>
+          <div className="bg-red-500 mb-5 w-fit text-white p-1 px-2 rounded-lg text-sm">
+            <SignOutButton />
+          </div>
+        </Link>
+
         <div className="text-center mb-4">
           <img
             src={user.imageUrl}
