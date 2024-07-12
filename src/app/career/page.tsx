@@ -74,7 +74,7 @@ const JobList = () => {
   ];
 
   return (
-    <div className="max-w-md mx-auto mb-20 rounded-xl overflow-hidden md:max-w-2xl p-4">
+    <div className="max-w-md mx-auto mb-20 rounded-xl overflow-hidden p-4">
       <Header />
 
       <form className="flex flex-row items-center my-3 max-w-sm mx-auto">
