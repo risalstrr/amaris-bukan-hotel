@@ -48,27 +48,27 @@ const JobCard = ({ title, company, location, image, remote }: any) => (
 const JobList = () => {
   const jobs = [
     {
-      title: "Restaurant Cook",
+      title: "Web Designer",
       company: "Lapar.id",
-      location: "West Jakarta (On-site)",
+      location: "Bandung (On-site)",
       image:
-        "https://cleaningocm.co.id/wp-content/uploads/2023/07/Cleaning-Service-OCM-Malang-1.jpg",
+        "https://smallbusiness-production.s3.amazonaws.com/uploads/2021/12/Web-designer-scaled-1.jpg",
       remote: false,
     },
     {
-      title: "Cleaning Service",
-      company: "Indonesia Bebersih",
+      title: "WordPress Developer",
+      company: "Rocky.id",
       location: "Bekasi (On-site)",
       image:
-        "https://cleaningocm.co.id/wp-content/uploads/2023/07/Cleaning-Service-OCM-Malang-1.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6NQhNgzbLRJb70mDBgWITbeIHdLvynm5p5R0IqdqMUznUBNiPHeLgWHQ6F3fNaMk8Vs&usqp=CAU",
       remote: false,
     },
     {
-      title: "Web Developer",
-      company: "Indonesia Bebersih",
-      location: "Bekasi",
+      title: "UI/UX Designer",
+      company: "PT. Design dan Data",
+      location: "East Jakarta (On-site)",
       image:
-        "https://cleaningocm.co.id/wp-content/uploads/2023/07/Cleaning-Service-OCM-Malang-1.jpg",
+        "	https://cdn.prod.website-files.com/6100d0111a4ed76bc1b9fd54/64664e9cd07202af8bcdc5e4_5757453.jpg",
       remote: true,
     },
   ];
