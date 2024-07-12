@@ -113,12 +113,13 @@ const JobList = () => {
       <h1 className="text-lg text-gray-600 mt-3 font-semibold">
         Boost Your Chances
       </h1>
-
-      <FeatureCard
-        imageSrc="https://5.imimg.com/data5/AS/FG/GLADMIN-27549754/resume-builder.jpg"
-        icon={<FaBrain className="text-white text-4xl" />}
-        title="AI-Powered Resume Builder"
-      />
+      <a href="https://enhancv.com/ai-resume-builder/">
+        <FeatureCard
+          imageSrc="https://5.imimg.com/data5/AS/FG/GLADMIN-27549754/resume-builder.jpg"
+          icon={<FaBrain className="text-white text-4xl" />}
+          title="AI-Powered Resume Builder"
+        />
+      </a>
 
       <h1 className="text-lg text-gray-600 font-semibold mt-6">
         Job Listings We Think You&apos;ll Like

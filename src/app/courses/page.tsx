@@ -75,9 +75,8 @@ const CoursesPage = () => {
 
   return (
     <>
-      <div className="flex flex-col w-full min-h-screen overflow-hidden p-4">
-        <Header />
-
+      <Header />
+      <div className="flex flex-col mx-auto max-w-md min-h-screen overflow-hidden p-4">
         <h1 className="font-extrabold text-xl">
           What do you want to upgrade today?
         </h1>

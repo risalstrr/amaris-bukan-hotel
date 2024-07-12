@@ -16,7 +16,7 @@ const QuizPage = ({ title, questions }: any) => {
   };
 
   return (
-    <div className="min-h-screen p-4">
+    <div className="min-h-screen p-4 max-w-md mx-auto">
       <Link href={"/quiz"}>
         <div className="flex items-center mb-4">
           <FaArrowLeft className="mr-2 cursor-pointer" />

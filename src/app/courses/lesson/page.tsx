@@ -67,7 +67,7 @@ const LessonPage = () => {
   const references = "Reference content goes here...";
 
   return (
-    <div>
+    <div className="max-w-md mx-auto">
       <LessonDetail
         videoSrc={videoSrc}
         title="Lesson 5: Deployment"

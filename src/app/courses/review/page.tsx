@@ -13,7 +13,7 @@ const CourseDetails = ({
   reviews,
 }: any) => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen max-w-md mx-auto">
       <Link href={"/courses"}>
         <div className="flex items-center mb-4">
           <FaArrowLeft className="mr-2 cursor-pointer" />

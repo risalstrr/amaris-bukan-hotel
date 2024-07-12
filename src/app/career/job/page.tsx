@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const JobDetails = () => {
   return (
-    <div className="min-h-screen p-4 mb-16">
+    <div className="min-h-screen p-4 mb-16 max-w-md mx-auto">
       <Header />
 
       <Link href={"/career"}>
