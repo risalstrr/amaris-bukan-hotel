@@ -9,7 +9,7 @@ import { GiSettingsKnobs } from "react-icons/gi";
 
 export default function page() {
   return (
-    <div className="p-4">
+    <div className="p-4 max-w-md mx-auto">
       <Link href={"/courses"}>
         <div className="flex items-center mb-4">
           <FaArrowLeft className="mr-2 cursor-pointer" />
