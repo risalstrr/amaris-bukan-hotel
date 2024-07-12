@@ -44,15 +44,15 @@ export default function page() {
       </form>
       {/* === */}
       <Link href={"/programs/detail"}>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg my-5">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg mt-2">
           <img
-            className="w-full h-32"
-            src="https://images.squarespace-cdn.com/content/v1/651eaffa715eb508c8f8d8fe/3139026a-a37d-4e7d-9c37-b12661013ff0/2.png"
+            className="w-full h-1/2"
+            src="https://i0.wp.com/www.star-revue.com/wp-content/uploads/2019/04/Urban-Recoverys-team.-Photo-courtesy-of-Urban-Recovery.jpg?ssl=1"
             alt="Sunset in the mountains"
           />
           <div className="px-6 py-4">
-            <p className="text-blue-600 text-base">Seaside Rehab Center</p>
-            <div className="font-bold text-xl mb-2">Healing Horizon</div>
+            <p className="text-blue-600 text-base">Urban Recovery Center</p>
+            <div className="font-bold text-xl mb-2">Renewed Life</div>
           </div>
           <div className="px-6 pb-2">
             <span className="inline-block mr-5 text-sm  text-gray-700">
@@ -65,15 +65,15 @@ export default function page() {
         </div>
       </Link>
       <Link href={"/programs/detail"}>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg mt-2">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg my-5">
           <img
             className="w-full h-1/2"
-            src="https://i0.wp.com/www.star-revue.com/wp-content/uploads/2019/04/Urban-Recoverys-team.-Photo-courtesy-of-Urban-Recovery.jpg?ssl=1"
+            src="https://images.squarespace-cdn.com/content/v1/651eaffa715eb508c8f8d8fe/3139026a-a37d-4e7d-9c37-b12661013ff0/2.png"
             alt="Sunset in the mountains"
           />
           <div className="px-6 py-4">
-            <p className="text-blue-600 text-base">Urban Recovery Center</p>
-            <div className="font-bold text-xl mb-2">Renewed Life</div>
+            <p className="text-blue-600 text-base">Seaside Rehab Center</p>
+            <div className="font-bold text-xl mb-2">Healing Horizon</div>
           </div>
           <div className="px-6 pb-2">
             <span className="inline-block mr-5 text-sm  text-gray-700">

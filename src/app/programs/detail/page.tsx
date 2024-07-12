@@ -21,8 +21,8 @@ const BatchDetails = () => {
           className="w-full h-full fill bg-cover"
         />
         <div className="p-4">
-          <h2 className="text-2xl font-bold">Rehabilitation Batch 4</h2>
-          <p className="text-gray-500">Bu Endang Rehabilitation Center</p>
+          <h2 className="text-2xl font-bold">Renewed Life</h2>
+          <p className="text-gray-500">Urban Recovery Center</p>
           <div className="flex items-center mt-2">
             <div className="flex items-center text-yellow-500">
               <FaStar />
@@ -38,8 +38,10 @@ const BatchDetails = () => {
           </button>
           <h3 className="mt-6 text-lg font-semibold">About</h3>
           <p className="text-gray-600 mt-2">
-            Cillum laboris sunt nostrud cillum minim amet magna. Non duis
-            voluptate elit amet molli...
+            Renewed Life offers a structured rehabilitation program in an urban
+            setting, combining modern therapy techniques with practical life
+            skills training. The goal is to help individuals integrate smoothly
+            back into society.
           </p>
           <h3 className="mt-6 text-xl font-bold">Past Batch Reviews</h3>
           <div className="mt-4 flex items-start">
@@ -50,7 +52,7 @@ const BatchDetails = () => {
             />
             <div>
               <p className="font-bold">Jinny Oslin</p>
-              <p className="text-gray-500 text-sm">A day ago</p>
+              <p className="text-gray-500 text-sm">Three days ago</p>
               <div className="flex items-center text-yellow-500 mt-1">
                 <FaStar />
                 <FaStar />
@@ -59,8 +61,23 @@ const BatchDetails = () => {
                 <FaStarHalfAlt />
               </div>
               <p className="text-gray-600 mt-2">
-                Magna id sint irure in cillum esse nisi dolor laboris ullamco.
-                Magna id sint irure in cillum esse nisi dolor laboris ullamco...
+                The life skills workshops were very practical and useful. I feel
+                more prepared for the challenges ahead.
+              </p>
+            </div>
+            <div>
+              <p className="font-bold">David Lee</p>
+              <p className="text-gray-500 text-sm">Two weeks ago</p>
+              <div className="flex items-center text-yellow-500 mt-1">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </div>
+              <p className="text-gray-600 mt-2">
+                Great program in the city. The therapy sessions were very
+                effective, and the staff was always there to help.
               </p>
             </div>
           </div>
