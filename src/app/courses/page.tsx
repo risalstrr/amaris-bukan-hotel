@@ -95,7 +95,7 @@ const CoursesPage = () => {
             <LearningCard
               imageSrc="https://cdn.prod.website-files.com/6100d0111a4ed76bc1b9fd54/62a030850a538782b1755eeb_coding%203.jpg"
               title="Web Development"
-              author="Risa Lestari"
+              author="David Ghana"
               progress={100}
             />
           </Link>
@@ -107,7 +107,7 @@ const CoursesPage = () => {
           <Link href={"/courses/occupational"}>
             <div className="relative w-full h-20 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://pelitariau.com/assets/berita/90853829097-img-20231009-wa0029.jpg"
+                src="https://factorialhr.co.uk/wp-content/uploads/2020/09/16173210/laws-on-working-from-home.png"
                 alt="Sunset in the mountains"
                 className="w-full h-full fill bg-cover"
               />
@@ -122,7 +122,7 @@ const CoursesPage = () => {
           <Link href={"/courses/personal"}>
             <div className="relative w-full h-20 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://pelitariau.com/assets/berita/90853829097-img-20231009-wa0029.jpg"
+                src="https://t3.ftcdn.net/jpg/02/67/25/64/360_F_267256449_9zyyZVvLDI2CiNeuMAmMWGwDUXU9ZehZ.jpg"
                 alt="Sunset in the mountains"
                 className="w-full h-full fill bg-cover"
               />
