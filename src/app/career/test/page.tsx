@@ -34,7 +34,9 @@ const AptitudeTest = () => (
         <li>A comprehensive report to guide your future decisions</li>
       </ul>
     </div>
-    <Button className="w-full bg-blue-600 text-white">Take the Test</Button>
+    <a href="https://aptitude-test.com/">
+      <Button className="w-full bg-blue-600 text-white">Take the Test</Button>
+    </a>
   </div>
 );
 
