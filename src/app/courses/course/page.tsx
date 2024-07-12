@@ -75,9 +75,9 @@ const HomePage = () => {
         </Link>
       </div>
       <LearningCard
-        imageSrc="https://cdn.prod.website-files.com/6100d0111a4ed76bc1b9fd54/62a030850a538782b1755eeb_coding%203.jpg"
-        title="Web Development"
-        author="Risa Lestari"
+        imageSrc="https://i.ytimg.com/vi/GE2qnXC8UMg/maxresdefault.jpg"
+        title="HTML Advanced"
+        author="Jane Doe"
         category="Tech"
         duration="3 months"
         rating="4.5"

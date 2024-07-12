@@ -91,16 +91,22 @@ export default function page() {
       {/* === */}
       <Link href={"/courses/review"}>
         <LearningCard
-          imageSrc="https://cdn.prod.website-files.com/6100d0111a4ed76bc1b9fd54/62a030850a538782b1755eeb_coding%203.jpg"
-          title="Web Development"
-          author="Risa Lestari"
+          imageSrc="https://i.ytimg.com/vi/GE2qnXC8UMg/maxresdefault.jpg"
+          title="HTML Advanced"
+          author="Jane Doe"
+          category="Tech"
+          duration="3 months"
+          rating="4.5"
           progress={100}
         />
 
         <LearningCard
-          imageSrc="https://cdn.prod.website-files.com/6100d0111a4ed76bc1b9fd54/62a030850a538782b1755eeb_coding%203.jpg"
-          title="Web Development"
-          author="Risa Lestari"
+          imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgq3ySvdsfVDPeTC_Ep4mrnpifaii2-PQtRQ&s"
+          title="CSS Advanced"
+          author="Jane Doe"
+          category="Tech"
+          duration="3 months"
+          rating="4.5"
           progress={100}
         />
       </Link>
