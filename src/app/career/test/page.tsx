@@ -21,17 +21,17 @@ const AptitudeTest = () => (
     <div className="mb-4">
       <h2 className="text-lg font-bold mb-2">The Test Includes:</h2>
       <ul className="list-disc list-inside text-gray-600">
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
+        <li>Skill assessments tailored to your interests</li>
+        <li>Personality analysis to match career paths</li>
+        <li>Detailed feedback and improvement suggestions</li>
       </ul>
     </div>
     <div className="mb-8">
       <h2 className="text-lg font-bold mb-2">What You Will Gain:</h2>
       <ul className="list-disc list-inside text-gray-600">
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
+        <li>Insights into your strengths and areas for development</li>
+        <li>Personalized career recommendations</li>
+        <li>A comprehensive report to guide your future decisions</li>
       </ul>
     </div>
     <Button className="w-full bg-blue-600 text-white">Take the Test</Button>
